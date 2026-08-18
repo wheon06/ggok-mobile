@@ -1,0 +1,30 @@
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+node_modules/
+.kotlin
+
+### IOS ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+### IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### Agents ###
+.claude/settings.local.json
+CLAUDE.local.md
